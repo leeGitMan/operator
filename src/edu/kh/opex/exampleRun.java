@@ -11,7 +11,15 @@ public class exampleRun {
 		// 같은 package를 만들어서 따로 import를 안해도됨.
 		//ex.ex1(); // 호출함.
 		
+		ex.ex1();
+		ex.ex2();
+		ex.ex3();
+		ex.ex4();
+		ex.ex5();
+		ex.ex6();
+		ex.ex7();
 		ex.ex8();
+	
 		
 		
 		

@@ -69,7 +69,7 @@ public class OpExample {
 		
 		int temp = 723;
 		
-		System.out.println("temp 는 짝수 입니까?" + ( temp % 2 == 0)); // false
+		System.out.println("temp 는 짝수 입니까? " + ( temp % 2 == 0)); // false
 		
 	
 		
@@ -117,6 +117,8 @@ public class OpExample {
 		int a = 10;
 		
 		a++; // 11
+		System.out.println(a);
+		
 		
 		a += 4; // == a = a + 4;
 		
@@ -129,8 +131,12 @@ public class OpExample {
 		a *= 3;
 		System.out.println(a);
 		
-		a %= 6;
+		a /= 6;
 		System.out.println(a);
+		
+		a %= 1; // 2 / 1
+		System.out.println(a);
+		
 		
 		
 		
